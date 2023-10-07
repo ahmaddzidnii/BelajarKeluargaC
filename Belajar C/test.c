@@ -7,12 +7,13 @@ int main()
     printf("Masukkan jumlah data: ");
     scanf("%d", &jum);
 
-    for (i = 1; i <= jum; i++)
+    printf("Masukkan data ke-1: "); // Tampilkan pesan untuk data pertama
+    scanf("%d", &min);              // Inisialisasi min dengan data pertama
+
+    for (i = 2; i <= jum; i++)
     {
         printf("Masukkan data ke-%d: ", i);
         scanf("%d", &data);
-
-        min = data;
 
         if (data < min)
         {
