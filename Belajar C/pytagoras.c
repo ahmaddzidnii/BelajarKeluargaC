@@ -1,3 +1,26 @@
+/*MEMBUAT PROGRAM SEDERHANA UNTUK MENGHITUNG PYTAGORAS DALAM
+SEBUAH SEGITIGA
+
+======================================================
+
+TUGAS ALGORITMA MENGGUNAKAN BAHASA C
+
+
+*/
+
+/*
+catatan:
+Untuk mencetak output melalui function prinf harus menambahkan
+format specifier untuk tipe data contohnya : printf("Rata-rata Nilai: %d\n", rata_rata);
+
+1. Integer (%d)
+2. Floating-point number (%f)
+3. String (%s)
+4. Double (%lf)
+
+operator "&" digunakan untuk mendapatkan alamat memori dari suatu variabel.
+*/
+
 #include <stdio.h>
 #include <math.h>
 
